@@ -38,7 +38,7 @@ public class LoginManager extends AppCompatActivity {
     private CallbackManager callbackManager;
 
     private FirebaseAuth firebaseAuth;
-    private FirebaseAuth.AuthStateListener firebaseAuthListener;
+    private AuthStateListener firebaseAuthListener;
 
     private ProgressBar progressBar;
 

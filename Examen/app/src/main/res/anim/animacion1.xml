@@ -11,4 +11,11 @@
         android:interpolator="@android:anim/linear_interpolator"
         >
     </translate>
+
+    <alpha
+        android:duration="2000"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:interpolator="@android:anim/linear_interpolator"
+        ></alpha>
 </set>
