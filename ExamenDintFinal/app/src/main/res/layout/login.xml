@@ -9,40 +9,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.luixmartinv2.examendintfinal.ExamenFinal">
 
-    <TextView
-        android:id="@+id/nameTextView"
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Nombre"
-        android:textSize="20sp" />
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
 
-    <TextView
-        android:id="@+id/emailTextView"
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/nameTextView"
         android:layout_centerHorizontal="true"
-        android:text="Email"
-        android:textSize="16sp" />
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        android:visibility="gone" />
 
-    <TextView
-        android:id="@+id/uidTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/nameTextView"
-        android:layout_centerHorizontal="true"
-        android:text="UID"
-        android:textSize="14sp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="logout"
-        android:text="@string/logout" />
 </RelativeLayout>
-
-
