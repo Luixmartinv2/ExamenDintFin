@@ -86,6 +86,7 @@ public class LoginManager extends AppCompatActivity {
 
     private void handleFacebookAccessToken(AccessToken accessToken) {
         progressBar.setVisibility(View.VISIBLE);
+        ani1();
         loginButton.setVisibility(View.GONE);
 
         AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());
@@ -97,6 +98,7 @@ public class LoginManager extends AppCompatActivity {
                 }
                 progressBar.setVisibility(View.GONE);
                 loginButton.setVisibility(View.VISIBLE);
+                ani2();
             }
         });
     }
@@ -124,4 +126,15 @@ public class LoginManager extends AppCompatActivity {
         super.onStop();
         firebaseAuth.removeAuthStateListener(firebaseAuthListener);
     }
+
+    public void ani1(){
+        loginButton.startAnimation(animacion1);
+
+    }
+
+    public void ani2(){
+        loginButton.startAnimation(animacion2);
+
+    }
+
 }
