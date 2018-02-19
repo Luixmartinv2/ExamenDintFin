@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.animation.Animation;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -31,6 +32,9 @@ import com.facebook.login.widget.LoginButton;
 //import com.google.firebase.auth.FirebaseUser;
 
 import java.util.Arrays;
+
+import static com.example.luixmartinv2.examen.R.anim.animacion1;
+import static com.example.luixmartinv2.examen.R.anim.animacion2;
 
 public class LoginManager extends AppCompatActivity {
 
@@ -128,6 +132,7 @@ public class LoginManager extends AppCompatActivity {
     }
 
     public void ani1(){
+
         loginButton.startAnimation(animacion1);
 
     }
