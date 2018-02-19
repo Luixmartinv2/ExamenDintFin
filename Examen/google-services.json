@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "6774501531",
+    "firebase_url": "https://examendintfirebase.firebaseio.com",
+    "project_id": "examendintfirebase",
+    "storage_bucket": "examendintfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6774501531:android:c6074d22bb1a6acb",
+        "android_client_info": {
+          "package_name": "com.example.luixmartinv2.exa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6774501531-vjpfc1vgt3pfvh5flpr4hl18mptarvj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luixmartinv2.exa",
+            "certificate_hash": "c8154605b1bb25668cc6ed5639aeb9967fdaf497"
+          }
+        },
+        {
+          "client_id": "6774501531-r5unqlgd0b4jmnkokos32a6f3688ti48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrigo2kxfNXA_Zfk5usKgO0mMmelFA_yQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6774501531-r5unqlgd0b4jmnkokos32a6f3688ti48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6774501531:android:07d78895051c8b2b",
+        "android_client_info": {
+          "package_name": "com.example.luixmartinv2.examendintfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6774501531-ubg9jdp4bl73qnpdk5imusre4979855t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luixmartinv2.examendintfinal",
+            "certificate_hash": "c8154605b1bb25668cc6ed5639aeb9967fdaf497"
+          }
+        },
+        {
+          "client_id": "6774501531-r5unqlgd0b4jmnkokos32a6f3688ti48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrigo2kxfNXA_Zfk5usKgO0mMmelFA_yQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6774501531-r5unqlgd0b4jmnkokos32a6f3688ti48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6774501531:android:ff9f8753b712c2b5",
+        "android_client_info": {
+          "package_name": "com.example.luixmartinv2.examen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6774501531-ppmuerrrg972tv21c7p84j7b5lv85nha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luixmartinv2.examen",
+            "certificate_hash": "c8154605b1bb25668cc6ed5639aeb9967fdaf497"
+          }
+        },
+        {
+          "client_id": "6774501531-r5unqlgd0b4jmnkokos32a6f3688ti48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrigo2kxfNXA_Zfk5usKgO0mMmelFA_yQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6774501531-r5unqlgd0b4jmnkokos32a6f3688ti48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
