@@ -92,6 +92,7 @@ public class LoginManager extends AppCompatActivity {
         progressBar.setVisibility(View.VISIBLE);
         ani1();
         loginButton.setVisibility(View.GONE);
+        goMainScreen();
 
         AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());
         firebaseAuth.signInWithCredential(credential).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
