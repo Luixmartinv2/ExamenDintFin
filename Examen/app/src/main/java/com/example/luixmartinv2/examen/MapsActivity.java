@@ -1,5 +1,6 @@
 package com.example.luixmartinv2.examen;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
@@ -24,6 +25,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mapFragment.getMapAsync(this);
     }
 
+    public static MapsActivity newInstance() {
+        MapsActivity fragment = new MapsActivity();
+        Bundle args = new Bundle();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
 
 
     /**
@@ -44,4 +52,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        mListener = null;
+    }
+    
 }
