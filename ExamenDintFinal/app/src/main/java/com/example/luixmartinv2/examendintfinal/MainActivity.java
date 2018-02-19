@@ -10,7 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.facebook.login.LoginManager;
+//enlazados al layout Login
+import com.facebook.Login.LoginManager;
+
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
